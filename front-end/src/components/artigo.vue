@@ -74,10 +74,11 @@ export default {
 	article{
 		@apply w-full flex flex-col md:flex-row justify-between gap-2 mt-10;
 		div{
-			@apply relative;
+			@apply sm:relative;
+			@apply flex flex-col;
 		.img{
 			@apply sm:absolute sm:inset-0 h-auto w-auto;
-			@apply flex flex-col
+			@apply hidden ;
 		}
 		}
 		section{
