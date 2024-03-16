@@ -72,7 +72,7 @@ export default {
 	};
 	}
 	article{
-		@apply w-full flex flex-col md:flex-row justify-between gap-2 mt-10;
+		@apply w-full flex flex-col md:flex-row justify-center gap-2 mt-10;
 		div{
 			@apply sm:relative;
 			@apply flex flex-col;
@@ -94,8 +94,10 @@ export default {
 				h3{
 					@apply mt-3 text-lg font-semibold text-base-content;
 				}
-				p{
-					@apply px-2 text-sm text-base-content text-justify;
+				p {
+					@apply px-2 text-sm text-base-content text-justify mr-20;
+					@apply md:mr-0;
+					
 				}
 			}
 			.autor{
