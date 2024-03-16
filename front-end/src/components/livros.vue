@@ -76,6 +76,7 @@ export default {
 
 <style scoped postcss>
 #livros {
+
 	.titulo {
 		@apply p-5;
 
@@ -95,7 +96,8 @@ export default {
 			@apply shadow-md border-t-2 border-base-200 rounded-md;
 
 			.container-artigo {
-				@apply flex items-center p-10;
+				@apply flex flex-col items-center p-10;
+				@apply md:flex-row;
 
 				figure {
 					@apply h-80 w-80 flex-shrink-0;
@@ -113,7 +115,8 @@ export default {
 					@apply flex flex-col text-sm gap-5;
 
 					h2 {
-						@apply font-bold text-2xl text-base-content;
+						@apply font-bold text-2xl text-base-content mt-10;
+						@apply md:mt-0
 					}
 
 					p {
