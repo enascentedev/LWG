@@ -1,42 +1,30 @@
 <template>
 	<div id="livros">
 		<div class="titulo">
-			<h2>
-				Encontre seu verso em algum livro
-			</h2>
-			<p>
-				Alguns insigths de livros que contém algum passagem que vale uma
-				reflexão mais profunda.
-			</p>
+			<h2>Encontre seu verso em algum livro</h2>
+			<p>Alguns insights de livros que contêm alguma passagem que vale uma reflexão mais profunda.</p>
 		</div>
 		<section>
 			<article>
 				<div v-if="currentItem" class="container-artigo">
 					<figure>
-						<img
-							src="https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/l/i/livro_as_25_leis_b_blicas_do_sucesso.jpg"
-							alt="imagem do livro"
-						 />
-							<p>
-								<cite>Wiliam Douglas</cite>
-							</p>
+						<img :src="currentImage" alt="imagem do livro" />
+						<p><cite>Wiliam Douglas</cite></p>
 					</figure>
 					<div class="container-insigth">
 						<h2>{{ currentItem.title }}</h2>
-						<p>
-							{{ currentItem.insights }}
-						</p>
+						<p>{{ currentItem.insights }}</p>
 					</div>
-					
 				</div>
 			</article>
 		</section>
 		<div class="container-button">
 			<button @click="previousItem" :disabled="currentIndex === 0">Anterior</button>
-			<button @click="nextItem" :disabled="currentIndex>= dataLivros.data.length">Próximo</button>
+			<button @click="nextItem" :disabled="currentIndex >= dataLivros.data.length">Próximo</button>
 		</div>
 	</div>
 </template>
+
 <script>
 import { StoreLivros } from "@/stores/apiLivros";
 
@@ -52,6 +40,13 @@ export default {
 		currentItem() {
 			return this.dataLivros.data[this.currentIndex];
 		},
+		currentImage() {
+			const titleMap = {
+				"Mais Esperto que o Diabo": "https://www.livrariasfamiliacrista.com.br/media/tmp/webp/catalog/product/cache/1/small_image/275x340/8104d67811b5b3c5190375b34be1f1fe/_/-/_-esperto-que-o-diabo.webp",
+				"As 25 Leis Bíblicas do sucesso": "https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/l/i/livro_as_25_leis_b_blicas_do_sucesso.jpg",
+			};
+			return titleMap[this.currentItem.title] || "https://img.skoob.com.br/XnQdUf07fNcMg0Ci84avk8Kjn7Y=/600x0/center/top/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/401847/MAIS_ESPERTO_QUE_O_DIABO_1405468411B.jpg";
+		},
 	},
 	methods: {
 		nextItem() {
@@ -64,54 +59,75 @@ export default {
 				this.currentIndex--;
 			}
 		},
+		shuffleArray(array) {
+			for (let i = array.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[array[i], array[j]] = [array[j], array[i]]; // ES6 swap
+			}
+		},
 	},
 	async mounted() {
 		this.storeLivros = StoreLivros();
 		this.dataLivros = await this.storeLivros.load();
+		this.shuffleArray(this.dataLivros.data);
 	},
 };
 </script>
+
 <style scoped postcss>
 #livros {
-.titulo {
-	@apply p-10;
-	h2 {
-		@apply font-bold tracking-tight text-base-content text-3xl;
+	.titulo {
+		@apply p-10;
+
+		h2 {
+			@apply font-bold tracking-tight text-base-content text-3xl;
+		}
+
+		p {
+			@apply mt-2 text-base text-base-content;
+		}
 	}
-	p {
-		@apply mt-2 text-base text-base-content;
-	}
-}
+
 	section {
 		@apply w-full h-1/2 px-10;
-		article{
+
+		article {
 			@apply shadow-md border-t-2 border-base-200 rounded-md;
-			.container-artigo{
+
+			.container-artigo {
 				@apply flex items-center p-10;
-				figure{
-					@apply h-80 w-80 flex-shrink-0;
-					img{
-						@apply h-auto w-auto object-cover object-center;
+
+				figure {
+					@apply h-96 w-80 flex-shrink-0;
+
+					img {
+						@apply h-80 w-80 object-cover object-center;
 					}
-					p{
+
+					p {
 						@apply relative text-center mt-2 text-base-content;
 					}
 				}
-				.container-insigth{
+
+				.container-insigth {
 					@apply flex flex-col text-sm gap-5;
-					h2{
+
+					h2 {
 						@apply font-bold text-2xl text-base-content;
 					}
-					p{
+
+					p {
 						@apply text-base text-base-content;
 					}
 				}
 			}
 		}
 	}
-	.container-button{
+
+	.container-button {
 		@apply flex justify-center gap-2 mt-5;
-		button{
+
+		button {
 			@apply hover:bg-sky-500 text-base-content;
 		}
 	}
