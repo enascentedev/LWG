@@ -107,7 +107,7 @@ export default {
 
 .cards {
 	@apply h-full grid md:grid-cols-3 grid-cols-1 gap-5 p-2;
-	@apply sm:p-10;
+	@apply sm:p-5;
 
 	article {
 		@apply h-80 relative isolate flex flex-col px-2;

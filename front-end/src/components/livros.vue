@@ -77,7 +77,7 @@ export default {
 <style scoped postcss>
 #livros {
 	.titulo {
-		@apply p-10;
+		@apply p-5;
 
 		h2 {
 			@apply font-bold tracking-tight text-base-content text-3xl;
@@ -98,7 +98,7 @@ export default {
 				@apply flex items-center p-10;
 
 				figure {
-					@apply h-96 w-80 flex-shrink-0;
+					@apply h-80 w-80 flex-shrink-0;
 
 					img {
 						@apply h-80 w-80 object-cover object-center;
