@@ -48,7 +48,7 @@
 
 <script>
 import { StoreApi } from "@/stores/apiArtigos";
-import { artigosStore } from "@/stores/storeArtigo";
+// import { artigosStore } from "@/stores/storeArtigo";
 
 export default {
 	name: "ArtigoHome",
@@ -57,13 +57,13 @@ export default {
 		return {
 			data: [],
 			storeApi: [],
-			store: [],
+			
 		};
 	},
 
 	async mounted() {
 		// store
-		this.store = artigosStore();
+		// this.store = artigosStore();
 		this.storeApi = StoreApi();
 
 		// data
@@ -126,11 +126,11 @@ export default {
 				@apply sm:bottom-10;
 
 				h3 {
-					@apply text-lg font-semibold text-base-100;
+					@apply rounded-md p-1 text-lg font-semibold text-gray-900 bg-white;
 				}
 
 				div {
-					@apply absolute right-0 -bottom-8 flex justify-between gap-2;
+					@apply rounded-md p-1 font-semibold bg-white text-gray-900 absolute right-0 -bottom-9 flex justify-between gap-2;
 				}
 
 				img {

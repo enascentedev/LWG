@@ -1,62 +1,789 @@
 [
-	{
-		"id": 1,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Talvez você não saiba, mas a Bíblia é o melhor manual sobre o sucesso já escrito até hoje. Sua sabedoria milenar continua extremamente atual, indicando os caminhos para que qualquer pessoa, religiosa ou não, possa se sair bem no mercado de trabalho e na gestão de empresas. O objetivo deste livro é revelar a você este conhecimento."
-	},
-	{
-		"id": 2,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Embora este livro seja focado no sucesso profissional, é bom lembrar que existem outros tipos de sucesso pessoal, espiritual, social, familiar, financeiro para que você possa refletir sobre o que é mais importante para a sua vida e, se possível, buscar o equilíbrio."
-	},
-	{
-		"id": 3,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Ficar aberto ao feedback do seu chefe ou de seus colegas de trabalho e aprender a examinar quais críticas procedem e quais podem ser ignoradas é difícil, mas é a única forma de crescer."
-	},
-	{
-		"id": 4,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Para não cometer o pecado da pressa, o mais importante é saber que a melhor opção não é a mais fácil nem a mais rápida. Quando o assunto é sucesso, como diz o fenômeno do basquete Michael Jordan, 'não existem atalhos' e quem se empenha pela metade corre o risco de só obter meios resultados. Ou nenhum."
-	},
-	{
-		"id": 5,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Não tenha pressa em ser promovido, nem em ganhar dinheiro. A ordem natural é: você trabalha e aí tem sucesso; você se realiza e então ganha dinheiro; você planta e depois colhe."
-	},
-	{
-		"id": 6,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Muita gente coloca o sucesso no futuro e nunca dá o primeiro passo rumo a ele. Fica pensando: 'Quando eu mudar de emprego, vou chegar no horário', 'Quando for reconhecido, trabalharei melhor', 'Quando eu ganhar bem, farei minhas tarefas com mais capricho'."
-	},
-	{
-		"id": 7,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Um erro muito comum é o de desconsiderar a linha do tempo. Se você olhar um sapato que está sendo engraxado, pode até achar que ele é mais feio que o outro que não está sendo engraxado. Há nisso uma ilusão de ótica, uma visão míope do que é e do que poderá vir a ser. Não se pode esquecer que o sapato que está sendo engraxado daqui a pouco vai estar brilhando mais do que o que não recebeu a graxa."
-	},
-	{
-		"id": 8,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "Um erro muito comum é o de desconsiderar a linha do tempo. Se você olhar um sapato que está sendo engraxado, pode até achar que ele é mais feio que o outro que não está sendo engraxado. Há nisso uma ilusão de ótica, uma visão míope do que é e do que poderá vir a ser. Não se pode esquecer que o sapato que está sendo engraxado daqui a pouco vai estar brilhando mais do que o que não recebeu a graxa."
-	},
-	{
-		"id": 9,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "O pecado da avareza 'Porque o amor ao dinheiro é a raiz de toda a espécie de males; e nessa cobiça alguns (...) se transpassaram a si mesmos com muitas dores.' 1 Timóteo 6:10"
-	},
-	{
-		"id": 10,
-		"title": "As 25 Leis Bíblicas do sucesso",
-		"author": "William Douglas",
-		"insights": "O dinheiro compra remédios, mas não saúde; compra uma casa, mas não um lar."
-	}
+    {
+        "id": 1,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "## ----- ----- -----  Book: As 25 Leis Bíblicas do sucesso Author: William Douglas  ## ----- ----- -----  Talvez você não saiba, mas a Bíblia é o melhor manual sobre o sucesso já escrito até hoje. Sua sabedoria milenar continua extremamente atual, indicando os caminhos para que qualquer pessoa, religiosa ou não, possa se sair bem no mercado de trabalho e na gestão de empresas. O objetivo deste livro é revelar a você este conhecimento."
+    },
+    {
+        "id": 2,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Embora este livro seja focado no sucesso profissional, é bom lembrar que existem outros tipos de sucesso – pessoal, espiritual, social, familiar, financeiro – para que você possa refletir sobre o que é mais importante para a sua vida e, se possível, buscar o equilíbrio."
+    },
+    {
+        "id": 3,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O pecado da pressa “Melhor é o homem paciente do que o guerreiro.” Provérbios 16:32a"
+    },
+    {
+        "id": 4,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“por maior que seja o talento ou o esforço, algumas coisas exigem tempo: não dá para produzir um bebê em um mês engravidando nove mulheres”. 1 Ou seja, paciência é uma virtude indispensável para qualquer profissional e até mesmo para os grandes empreendedores."
+    },
+    {
+        "id": 5,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Ficar aberto ao feedback do seu chefe ou de seus colegas de trabalho e aprender a examinar quais críticas procedem e quais podem ser ignoradas é difícil, mas é a única forma de crescer."
+    },
+    {
+        "id": 6,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Para não cometer o pecado da pressa, o mais importante é saber que a melhor opção não é a mais fácil nem a mais rápida. Quando o assunto é sucesso, como diz o fenômeno do basquete Michael Jordan, “não existem atalhos” e quem se empenha pela metade corre o risco de só obter meios resultados. Ou nenhum."
+    },
+    {
+        "id": 7,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Não tenha pressa em ser promovido, nem em ganhar dinheiro. A ordem natural é: você trabalha e aí tem sucesso; você se realiza e então ganha dinheiro; você planta e depois colhe."
+    },
+    {
+        "id": 8,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Muita gente coloca o sucesso no futuro e nunca dá o primeiro passo rumo a ele. Fica pensando: “Quando eu mudar de emprego, vou chegar no horário”, “Quando for reconhecido, trabalharei melhor”, “Quando eu ganhar bem, farei minhas tarefas com mais capricho”."
+    },
+    {
+        "id": 9,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Um erro muito comum é o de desconsiderar a linha do tempo. Se você olhar um sapato que está sendo engraxado, pode até achar que ele é mais feio que o outro que não está sendo engraxado. Há nisso uma ilusão de ótica, uma visão míope do que é e do que poderá vir a ser. Não se pode esquecer que o sapato que está sendo engraxado daqui a pouco vai estar brilhando mais do que o que não recebeu a graxa."
+    },
+    {
+        "id": 10,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O pecado da avareza “Porque o amor ao dinheiro é a raiz de toda a espécie de males; e nessa cobiça alguns (...) se transpassaram a si mesmos com muitas dores.” 1 Timóteo 6:10"
+    },
+    {
+        "id": 11,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O dinheiro compra remédios, mas não saúde; compra uma casa, mas não um lar."
+    },
+    {
+        "id": 12,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O dinheiro é um bom escravo, mas um péssimo senhor (Mateus 6:24-27, Lucas 16:14)."
+    },
+    {
+        "id": 13,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Não se esforce para ter prazer, aprenda a ter prazer no esforço.”"
+    },
+    {
+        "id": 14,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Há estudos que sustentam que, se toda a riqueza do mundo fosse dividida igualmente por todos, em poucos anos ela estaria de volta às mãos de quem já a possui hoje. A razão? Essas são as pessoas que sabem administrar as riquezas, e as obteriam de volta."
+    },
+    {
+        "id": 15,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O pecado da preguiça “A preguiça faz cair em profundo sono; e o ocioso padecerá fome.” Provérbios 19:15"
+    },
+    {
+        "id": 16,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“O que lavra sua terra se fartará de pão, mas o que segue os ociosos é falto de juízo” (Provérbios 12:11)."
+    },
+    {
+        "id": 17,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O problema das pessoas é que querem vitória, mas não querem passar pelas coisas; querem ser prósperas,  mas não querem semear; não querem ﬁcar no mesmo lugar financeiro, mas querem ficar no mesmo lugar quanto a ajudar os outros."
+    },
+    {
+        "id": 18,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Toda vez que queremos ir mais alto, é melhor termos consciência de que a carne necessita ir mais baixo."
+    },
+    {
+        "id": 19,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nós não podemos ter só a parte de que gostamos. Isso é uma revelação. Você não pode ter só a parte de que gosta.  Em todas as coisas haverá o que você não dá a mínima, e, acredite ou não, isso é saudável. Nós não podemos ter só a parte de que gostamos. Isso é uma revelação. Você não pode ter só a parte de que gosta.  Em todas as coisas haverá o que você não dá a mínima, e, acredite ou não, isso é saudável."
+    },
+    {
+        "id": 20,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Comece a se disciplinar. Monte um planejamento que defina ações e prazos, e cumpra-o.  Pense nos frutos que vai colher quando vencer a preguiça e conseguir realizar seus sonhos.  Não fique esperando as oportunidades caírem do céu, nem fantasiando que vai ganhar na loteria ou ter uma ideia genial, sem que precise fazer qualquer esforço.  Mãos à obra."
+    },
+    {
+        "id": 21,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Há um provérbio chinês que diz: “Quando o jogo acaba, o rei e o peão voltam para a mesma caixa."
+    },
+    {
+        "id": 22,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Você pode se perguntar: mas como alguém que serve pode subir na vida? Pois são exatamente as pessoas que servem as mais desejadas pelo mercado de trabalho. Se você não serve para nada nem a ninguém, diﬁcilmente construirá uma carreira ou negócio bem-sucedido."
+    },
+    {
+        "id": 23,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A felicidade, como muitos já disseram, não decorre das circunstâncias, mas de como você reage a elas."
+    },
+    {
+        "id": 24,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Por isso, não adianta reclamar que fulano ou beltrano tem mais sorte do que você. Isso não muda a realidade.  Precisamos jogar com as cartas que temos nas mãos, partir de onde estamos para o ponto aonde queremos chegar,  pagando o preço de tempo e esforço que qualquer processo de mudança exige."
+    },
+    {
+        "id": 25,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Note que a chuva, os rios e os ventos vêm para todos, mas alguns possuem bases e estruturas sólidas, outros não"
+    },
+    {
+        "id": 26,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O mais geral, que trata do saber, da sensatez e da instrução necessários para fazer escolhas certas e saber se conduzir na vida. A competência profissional, que se refere especificamente a saber como trabalhar, o que exige inteligência e habilidade. O conhecimento mais profundo, a intimidade com as áreas e as pessoas necessárias ao sucesso."
+    },
+    {
+        "id": 27,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Agir com sabedoria assegura o sucesso.” Eclesiastes 10:10b"
+    },
+    {
+        "id": 28,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Os valores equivalem ao guard-rail, aquela mureta de proteção que ajuda o motorista a conduzir o veículo sem sair da estrada nem se acidentar."
+    },
+    {
+        "id": 29,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nosso objetivo deve ser realizar nossas tarefas da forma mais segura, eficiente e produtiva possível.   ----- ----- ------  A combinação da sabedoria/inteligência com a disposição de realizar um ótimo trabalho torna a pessoa um tipo raro de profissional, o que lhe dá uma grande vantagem competitiva."
+    },
+    {
+        "id": 30,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Conhecer o estado de sua empresa também serve para saber a hora de mudar, de inovar, ou, se for o caso, até de fechá-la e partir para outra empreitada. É preciso conhecer o estado real da empresa, do mercado, e estar com o coração no seu negócio, na sua carreira"
+    },
+    {
+        "id": 31,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A Lei da Visão diz que você precisa ter clareza sobre o que deseja para sua vida. Qual sua missão, sua razão de ser? Onde pretende chegar? Como quer ser conhecido? A escolha é sua. Você pode até mudar de ideia depois, mas é indispensável que defina esses conceitos para poder seguir em frente."
+    },
+    {
+        "id": 32,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Obstáculos são aqueles perigos que você vê quando tira os olhos de seu objetivo.” Henry Ford"
+    },
+    {
+        "id": 33,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Jesus disse que onde a pessoa depositar o que é mais importante para ela, ali estará seu coração. E, claro, onde estiver seu coração será a área em que irá se desenvolver: “Porque, onde estiver o vosso tesouro, ali estará também o vosso coração” (Lucas 12:34)"
+    },
+    {
+        "id": 34,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Ao contrário de pensar na distância que o separa de seus objetivos, procure se concentrar em uma mudança de performance."
+    },
+    {
+        "id": 35,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Estudos demonstram que as metas registradas, seja em papel, seja em algum outro suporte, são mais fáceis de alcançar do que as guardadas apenas na memória. “Os planos bem elaborados levam à fartura.” Provérbios 21:5"
+    },
+    {
+        "id": 36,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O sucesso sempre exige algum sacrifício. O fracasso também. Repare que tanto o sucesso quanto o fracasso cobram um preço. Em geral, o preço do sucesso é cobrado antes e a pessoa aproveita a vida depois. O fracasso normalmente acontece com pessoas que no início não se esforçam: elas pagam o preço depois."
+    },
+    {
+        "id": 37,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Quem planeja bem já é, por si só, um profissional diferenciado no mercado brasileiro"
+    },
+    {
+        "id": 38,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Planejamento tem muito a ver com prudência. De acordo com o Dicionário Houaiss, prudente é aquele que tem prudência, que não procura o perigo; é cauteloso, sensato, ajuizado. É também aquele que costuma se precaver, preparar-se antecipadamente; é precavido, previdente. E o que manda Jesus? “Portanto, sejam prudentes como as serpentes e simples como as pombas” (Mateus 10:16)."
+    },
+    {
+        "id": 39,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Quem falha em planejar, planeja falhar.” Winston Churchill"
+    },
+    {
+        "id": 40,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "6 A Lei do Trabalho"
+    },
+    {
+        "id": 41,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Na vida, temos que tomar muitas decisões – algumas fáceis, outras difíceis. A maior parte dos erros que cometemos não se deve a escolhas erradas, e sim à indecisão, à omissão e à falta de ação por medo de errar."
+    },
+    {
+        "id": 42,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Quem não arrisca é prisioneiro à sua servidão, é um escravo que teme a liberdade. Apenas quem se arrisca é livre"
+    },
+    {
+        "id": 43,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nada acontece sem que a pessoa acredite. Sem fé é impossível fazer algo, porque “a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que se não veem” (Hebreus 11:1)."
+    },
+    {
+        "id": 44,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Não basta trabalhar. É preciso fazê-lo com dedicação."
+    },
+    {
+        "id": 45,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A Bíblia é enfática: se você quer melhorar de vida, aprenda a trabalhar bem e a ser diligente, competente e caprichoso, a “fazer de todo o coração” (Colossenses 3:23)."
+    },
+    {
+        "id": 46,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "PERSISTÊNCIA “Se o machado está cego e sua lâmina não foi afiada, é preciso golpear com mais força; agir com sabedoria assegura o sucesso.” Eclesiastes 10:10 Quanto mais se usa o machado, mais ele perde o corte e menor sua produtividade. Aprenda a afiar seu machado, mesmo que sua produtividade seja boa, pois ela poderá se tornar melhor ainda."
+    },
+    {
+        "id": 47,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O pessimista queixa-se do vento, o otimista espera que ele mude e o realista ajusta as velas.” William George Ward"
+    },
+    {
+        "id": 48,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "13/04/23 A Lei da Coragem 7 “Se te mostras fraco no dia da angústia, a tua força é pequena.” Provérbios 24:10"
+    },
+    {
+        "id": 49,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Maquiavel, no clássico O Príncipe, afirma: “Necessitando um príncipe, pois, saber bem empregar o animal, deve deste tomar como modelos a raposa e o leão, eis que este não se defende dos laços e aquela não tem defesa contra os lobos. É preciso, portanto, ser raposa para conhecer os laços e leão para aterrorizar os lobos.” 4"
+    },
+    {
+        "id": 50,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Há momentos para ser ousado como um leão ou prudente como uma raposa."
+    },
+    {
+        "id": 51,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "É melhor ser o primeiro do que ser o melhor? no livro está como uma afirmação e eu coloquei como uma pergunta e fiquei em reflexão sobre isso"
+    },
+    {
+        "id": 52,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "14/04/23  A valentia e o arrojo conquistam riquezas, mas à bondade se soma o respeito. É possível obter ambos. Você pode ser valente nas ideias e na execução, mas bondoso e gentil, ainda que precise ser firme com as pessoas. Diz o latim: suaviter in modo, fortiter in re, ou seja, “suave na forma, forte na essência”."
+    },
+    {
+        "id": 53,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Um desafio requer trabalho para ser superado."
+    },
+    {
+        "id": 54,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“A coragem nunca foi uma questão de músculos. Ela é uma questão de coração.” Gandhi"
+    },
+    {
+        "id": 55,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "8 A Lei da Resiliência A capacidade de superar as adversidades é inerente aos bons jogadores. No competitivo mercado de trabalho, o nível de empregabilidade de um profissional sobe na mesma proporção que seu Quociente de Adversidade (QA) Mais significativo que o frio e racional QI (Quociente de Inteligência) e mais eficaz que a avaliação psicológica do QE (Quociente Emocional), o QA (Quociente de Adversidade) explica por que a persistência pode ter mais valor do que o talento."
+    },
+    {
+        "id": 56,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Possuir resiliência é conseguir resistir à pressão. O termo tem origem na física e corresponde à propriedade que alguns corpos têm de retornar à sua forma original após terem sido submetidos a estresse."
+    },
+    {
+        "id": 57,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“quando sopram os ventos da mudança, alguns constroem abrigos e se sentem seguros; outros constroem moinhos e ficam ricos”."
+    },
+    {
+        "id": 58,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“a adversidade tem o efeito de despertar talentos, os quais, em circunstâncias favoráveis, permaneceriam adormecidos”."
+    },
+    {
+        "id": 59,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Eu não tenho nenhum problema em fazer negócios com alguém que já foi à falência. Mas jamais farei negócios com alguém que foi à falência duas vezes pelo mesmo motivo.”"
+    },
+    {
+        "id": 60,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Não importa o número de reveses e insucessos que tenha sofrido ao longo da jornada, você nunca será um perdedor ou fracassado se mantiver seu sonho, sua atitude, sua disposição de aprender com o erro e tentar de novo. Foi assim que chegamos ao sucesso. É preciso traçar estratégias para vencer os obstáculos. Uma hora, mais cedo do que imagina, você aprende tudo o que é preciso para realizar o seu sonho."
+    },
+    {
+        "id": 61,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Tenha em mente que os frutos que você vai colher de suas conquistas pagarão com folga toda a frustração temporária que as derrotas podem trazer. E sempre que enfrentar problemas ou crises, pergunte a si mesmo: o que essa situação está tentando me ensinar?"
+    },
+    {
+        "id": 62,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Os grandes navegadores devem sua reputação aos temporais e tempestades.” Epicuro"
+    },
+    {
+        "id": 63,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "9 A Lei da Alegria “Fazei todas as coisas sem murmurações nem contendas.” Filipenses 2:14"
+    },
+    {
+        "id": 64,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Em tudo dai graças” (1 Tessalonicenses 5:16-18 e Filipenses 4:4)."
+    },
+    {
+        "id": 65,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Há pessoas que passam a vida reclamando do que lhes aconteceu: o que faltou, o que não deu certo, quem lhe traiu e assim por diante. São pessoas incapazes de colocar o carimbo de “caso encerrado” em seu passado, que não conseguem aprender com os erros e derrotas e seguir em frente. É como se diz: se a vida nos dá um limão devemos fazer uma limonada."
+    },
+    {
+        "id": 66,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Fala-se que quando Deus não muda as circunstâncias é porque Ele quer mudar você."
+    },
+    {
+        "id": 67,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "10 A Lei da Recarga “Seis dias trabalharás, e ao sétimo dia descansarás; para que descanse o teu boi e o teu jumento, e para que se refrigere o filho da tua escrava e o peregrino.” Êxodo 23:12"
+    },
+    {
+        "id": 68,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Respire fundo, ouça uma música, olhe a paisagem pela janela, aprecie um quadro ou uma foto bem bonitos. Pense na sua vida, seja grato por tudo o que já viveu e aprendeu, pelo que tem. Lembre-se das coisas boas que lhe acontecem todos os dias, ou de algum momento especial da sua existência."
+    },
+    {
+        "id": 69,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "AS LEIS DA INTEGRIDADE 11 A Lei da Autocontratação “A multidão dos homens apregoa a sua própria bondade, porém o homem fidedigno quem o achará?” Provérbios 20:6"
+    },
+    {
+        "id": 70,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Ao trabalhar da forma certa, você tem mais chances de manter seu emprego ou de conseguir outro melhor. Sendo um bom profissional, surgirão novas oportunidades e você terá a opção de escolher a melhor."
+    },
+    {
+        "id": 71,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "12 A Lei da Honestidade “Não furtarás.” Exôdo 20:15 e Deuteronômio 5:19"
+    },
+    {
+        "id": 72,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O dinheiro que traz prosperidade é aquele oriundo do trabalho, pois traz junto o reconhecimento dos que estão ao redor."
+    },
+    {
+        "id": 73,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Ai daquele que edifica a sua casa com injustiça, e os seus aposentos sem direito, que se serve do próximo, e não lhe dá o salário do seu trabalho” (Jeremias 22:13)."
+    },
+    {
+        "id": 74,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "13 A Lei do Nome “O bom nome vale mais do que muitas riquezas.” Provérbios 22:1"
+    },
+    {
+        "id": 75,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“O tempo se vinga de tudo o que é feito sem sua colaboração”"
+    },
+    {
+        "id": 76,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "14 A Lei do Farelo “Não vos enganeis. As más companhias corrompem os bons costumes.” 1 Coríntios 15:33"
+    },
+    {
+        "id": 77,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nossa mãe já dizia que “quem com porcos anda, farelo come”"
+    },
+    {
+        "id": 78,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Portanto, se você quer crescer profissionalmente, precisa andar no meio das pessoas que sirvam de modelo para você ou, ao menos, que compartilhem seus sonhos."
+    },
+    {
+        "id": 79,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Não se pode fazer bons negócios com pessoas ruins.”Warren Buffett"
+    },
+    {
+        "id": 80,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "15 A Lei do Autocontrole “(...) mais vale controlar o seu espírito do que conquistar uma cidade.” Provérbios 16:32b"
+    },
+    {
+        "id": 81,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Napoleon Hill disse que “ter autocontrole é, na verdade, ser o líder de si mesmo. É pensar a longo prazo, avaliar as consequências de cada ação, ter a ideia exata de que tudo o que você faz ou o aproxima, ou o afasta do seu objetivo principal definido”"
+    },
+    {
+        "id": 82,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“não ser escravo das tentações mundanas ou de estados alterados de consciência – como a embriaguez, por exemplo – é um passo essencial para quem quer estar no comando da própria vida”"
+    },
+    {
+        "id": 83,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Não sabeis vós que os que correm no estádio, todos, na verdade, correm, mas um só leva o prêmio? Correi de tal maneira que o alcanceis. E todo aquele que luta de tudo se abstém; eles o fazem para alcançar uma coroa corruptível; nós, porém, uma incorruptível. Pois eu assim corro, não como a coisa incerta; assim combato, não como batendo no ar. Antes subjugo o meu corpo e o reduzo à servidão, para que, pregando aos outros, eu mesmo não venha de alguma maneira a ficar reprovado” (1 Coríntios 9:24-27)."
+    },
+    {
+        "id": 84,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "a. correr como um vencedor (“de tal maneira que o alcanceis”); b. fazer sacrifícios (“de tudo se abstém”); c. ter fé e confiança (“não como a coisa incerta”); d. agir com inteligência e objetividade (“não como batendo no ar”); e. ter domínio próprio e autocontrole (“subjugo o meu corpo e o reduzo à servidão”)."
+    },
+    {
+        "id": 85,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Aprender a controlar sua mente, seu corpo e seu tempo é fundamental, e quem não domina primeiro a si mesmo não tem condições de dominar nada."
+    },
+    {
+        "id": 86,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nunca devemos fazer nada que nos tire a condição de sermos “dignos de confiança”."
+    },
+    {
+        "id": 87,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“O tolo não deseja o entendimento, mas somente abrir seu coração” (Provérbios 18:2)"
+    },
+    {
+        "id": 88,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "AS LEIS DO RELACIONAMENTO 16 A Lei do Amor “Mestre, qual é o grande mandamento na lei? E Jesus disse-lhe: Amarás o Senhor teu Deus de todo o teu coração, e de toda a tua alma, e de todo o teu pensamento. Este é o primeiro e grande mandamento. E o segundo, semelhante a este, é: Amarás o teu próximo como a ti mesmo. Destes dois mandamentos dependem toda a lei e os profetas.” Mateus 22:36-40"
+    },
+    {
+        "id": 89,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“A Regra de Ouro significa, substancialmente, fazer aos outros apenas aquilo que desejaríamos que os outros nos fizessem, se estivessem em nossa situação.”"
+    },
+    {
+        "id": 90,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Assim como o corpo é um e tem muitos membros, (...) todos os membros do corpo, embora muitos, constituem um só corpo.” 1 Coríntios 12:12"
+    },
+    {
+        "id": 91,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "17 A Lei do Acordo “Acaso andarão dois juntos, se não estiverem de acordo?” Amós 3:3"
+    },
+    {
+        "id": 92,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Há indivíduos que se vangloriam de não levar “desaforo para casa”, sempre prontos para o confronto e pouco dispostos a perdoar. São pessoas que têm mais dificuldades de chegar a acordos e respeitar a autoridade, o que é muito desvantajoso no trabalho e na vida."
+    },
+    {
+        "id": 93,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Em todo tempo ama o amigo, e na angústia se faz o irmão” (Provérbios 17:17)"
+    },
+    {
+        "id": 94,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Um das características importantes tanto para liderar quanto para fazer parte de uma equipe saudável e produtiva é a capacidade de não se ofender por qualquer coisa, de perdoar e de esquecer erros e ofensas."
+    },
+    {
+        "id": 95,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A Bíblia diz também que “a resposta calma desvia a fúria, mas a palavra ríspida desperta a ira” (Provérbios 15:1)."
+    },
+    {
+        "id": 96,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A postura agressiva se refere à inovação, à capacidade de atrair mais clientes, expor melhor seu produto, oferecer melhores serviços, cortar custos e ser mais produtivo e eficiente."
+    },
+    {
+        "id": 97,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "18 A Lei da Utilidade “Quem cuida de uma figueira comerá de seu fruto, e quem trata bem o seu senhor receberá tratamento de honra.” Provérbios 27:18"
+    },
+    {
+        "id": 98,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A omissão do bem é uma conduta errada. Eis o que diz o texto: “Pensem nisto, pois: Quem sabe que deve fazer o bem e não o faz comete pecado” (Tiago 4:17)."
+    },
+    {
+        "id": 99,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "VOCÊ SABE EM QUE É MUITO BOM? “Eu posso não estar onde gostaria de estar, mas estou feliz por saber que estou a caminho.” Joyce Meyer"
+    },
+    {
+        "id": 100,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A Bíblia vai além do lugar-comum: quem ganha demais provavelmente está ganhando porque alguém está perdendo. Porém, o que parece perda para o outro vai, com o tempo, se transformar em perda para aquele que acha que está “se dando bem”."
+    },
+    {
+        "id": 101,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Um mau profissional, quando tudo dá certo, olha para o espelho e julga que o mérito do sucesso foi dele; mas quando algo sai errado, olha para a janela, procurando jogar a culpa em outra pessoa. Um bom profissional age de modo inverso: quando as coisas dão certo, ele atribui o sucesso à equipe (vai para a janela), e quando algo sai errado, se pergunta onde errou e como poderia ter evitado o problema (olha para o espelho)."
+    },
+    {
+        "id": 102,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "19 A Lei do Aconselhamento “Onde não há conselho, frustram-se os projetos; mas com a multidão de conselheiros se estabelecem.” Provérbios 15:22"
+    },
+    {
+        "id": 103,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Provérbios 24:5-6: “Mais poder tem o sábio do que o forte, e o homem de conhecimento do que o robusto. Com medidas de prudência farás a guerra; na multidão de conselheiros está a vitória.” Procure aprender com quem sabe mais que você."
+    },
+    {
+        "id": 104,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Assim como o ferro afia o ferro, o homem afia o seu companheiro.” Provérbios 27:17"
+    },
+    {
+        "id": 105,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Salomão diz que “leais são as feridas feitas pelos amigos, mas os beijos do inimigo são enganosos” (Provérbios 27:6)."
+    },
+    {
+        "id": 106,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "É preciso coragem e humildade para perguntar às pessoas o que acham de nós e lhes dar total liberdade para nos criticar. Além disso, temos que ser maduros para não nos ofendermos com opiniões contrárias à nossa, e flexíveis, para vencermos nossa própria resistência e nos esforçarmos para mudar o que for necessário."
+    },
+    {
+        "id": 107,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“O feedback é o café da manhã dos campeões.” Rick Tate"
+    },
+    {
+        "id": 108,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "20 A Lei da Liderança “Os (...) que lideram bem (...) são dignos de dupla honra.” 1 Timóteo 5:17"
+    },
+    {
+        "id": 109,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Não tente mudar os outros. Mude a si mesmo.” Esse é um grande caminho não só para a liderança, mas para o sucesso. Como ensinava Gandhi, “aquele que não é capaz de governar a si mesmo, não será capaz de governar os outros”."
+    },
+    {
+        "id": 110,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Façam todo o possível para viver em paz com todos. Amados, nunca procurem vingar-se, mas deixem com Deus a ira, pois está escrito: ‘Minha é a vingança; eu retribuirei’, diz o Senhor."
+    },
+    {
+        "id": 111,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "AS LEIS DA EVOLUÇÃO PESSOAL 21 A Lei da Gratidão “Quanto àquele que paga o bem com o mal, não se apartará o mal da sua casa.” Provérbios 17:13"
+    },
+    {
+        "id": 112,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Jesus, ao curar dez leprosos, viu apenas um deles, ou seja, apenas dez por cento do total, voltar para agradecer. Assim é a raça humana. Essas lições devem servir para duas coisas. Primeiro, quando alguém for ingrato com você, acalme seu coração, pois esta é a regra. Segundo, não seja você mais um ingrato a povoar o planeta Terra. Essa é a Lei da Gratidão."
+    },
+    {
+        "id": 113,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Tome cuidado para não explodir a ponte que você terá que atravessar.” Winston Churchill"
+    },
+    {
+        "id": 114,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "22 A Lei da Generosidade “O generoso prosperará; quem dá alívio aos outros, alívio receberá.” Provérbios 11:25"
+    },
+    {
+        "id": 115,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Salomão disse: “Lança o teu pão sobre as águas, porque depois de muitos dias o acharás” (Eclesiastes 11:1)"
+    },
+    {
+        "id": 116,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "23 A Lei do Contentamento “(...) tendo o que comer e com que vestir-nos, estejamos com isso satisfeitos.” 1 Timóteo 6:8"
+    },
+    {
+        "id": 117,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Sucesso é o jeito como se caminha, não o destino para onde se está indo. É, sobretudo, uma trajetória na qual a pessoa, independentemente de onde esteja, continua evoluindo – e aqui não estamos falando apenas de aspectos financeiros"
+    },
+    {
+        "id": 118,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Numa sociedade baseada na escalada permanente é difícil conseguir parar e ter paz. Num mundo em que a quantidade, a riqueza e o poder têm mais valor que a qualidade e a autorrealização, a tendência é confundir escalada com satisfação.”"
+    },
+    {
+        "id": 119,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "24 A Lei da Empregabilidade “Muitos proclamam a sua benignidade; mas o homem fidedigno, quem o poderá achar?” Provérbios 20:6"
+    },
+    {
+        "id": 120,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "O mercado de trabalho procura quem seja: 1. Trabalhador 2. Competente 3. Honesto 4. Simpático 5. Leal/Confiável 6. Determinado/Persistente 7. Paciente 8. Humilde 9. Imbuído de espírito de equipe 10.Capaz de se adaptar às mudanças"
+    },
+    {
+        "id": 121,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Já mencionamos antes os três predicados que Warren Buffett considera essenciais para a contratação de alguém e que guardam relação direta com as primeiras qualidades da nossa lista: energia, inteligência e integridade. Energia = Dedicação ao trabalho (ser trabalhador) Inteligência = Competência, conhecimentos e habilidades (ser competente) Integridade = Honestidade (ser honesto)"
+    },
+    {
+        "id": 122,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Todos os seres humanos têm qualidades e defeitos, mas serão adorados ou detestados em razão do “conjunto”, ou seja, da soma de tudo. Por isso, falamos que o mais importante é ter um conjunto positivo. Algumas pessoas focam em consertar os pontos fracos, outras em aproveitar os pontos fortes. No entanto, qualquer que seja sua estratégia, cuide do conjunto. Não é fácil, mas as recompensas são generosas e duradouras"
+    },
+    {
+        "id": 123,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "quando dois adversários (atletas, times, empresas) são tão bons que suas forças se equivalem, pode ser que a sorte se torne o fiel da balança. Nessas horas, o que podemos fazer é estar o mais preparados que pudermos, dar o nosso melhor e esperar os resultados. Se vencermos, poderemos comemorar e honrar o adversário. Se perdermos, teremos resignação e nos prepararemos ainda melhor para que, da próxima vez, nossa superioridade seja decisiva, não deixando o resultado ao sabor da sorte. Ou, ao menos, que, tendo feito a nossa parte, a sorte possa sorrir para nós."
+    },
+    {
+        "id": 124,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "“Sem o respaldo do desempenho e do trabalho duro, as palavras não significam nada.” Michael Jordan"
+    },
+    {
+        "id": 125,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "25 A Lei da Semeadura “(...) tudo o que o homem semear, isso também ceifará.” “(...) o que semeia pouco, pouco também ceifará; e o que semeia em abundância, em abundância ceifará.” Gálatas 6:7 e 2 Coríntios 9:6"
+    },
+    {
+        "id": 126,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Nosso foco é o sucesso e, do ponto de vista intelectual e lógico, os resultados positivos não são privilégio de quem tem fé, mas de quem segue os valores que geram o sucesso. Sob a perspectiva da vida cotidiana, um ateu que siga as leis bíblicas citadas aqui será profissionalmente muito mais respeitado do que um religioso que não as siga. As leis do sucesso não discriminam ninguém."
+    },
+    {
+        "id": 127,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Todas as fontes de sabedoria humana são unânimes em dizer isso – as religiões, a filosofia, os tratados de química e de biologia, a física tradicional (lei de Newton) e até a física quântica. Não é possível que todos estejam errados. Enfim, o que você faz volta para você, como se fosse um bumerangue."
+    },
+    {
+        "id": 128,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Tudo o que você fizer de bom ou de ruim voltará multiplicado para você. Por isso, faça o bem. Seja sábio, trabalhador, íntegro, ame o próximo e sua vida profissionalserá um sucesso."
+    },
+    {
+        "id": 129,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "CONCLUSÃO Muito além do sucesso terreno: uma loucura chamada Jesus"
+    },
+    {
+        "id": 130,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "Cremos que o maior sucesso é entender os paradigmas revolucionários que Jesus trouxe ao falar do seu “Reino”, que é bem diferente dos reinos terrenos. As ideias de Jesus foram consideradas loucura por muitos. Elas incomodam porque falam de uma relação e um amor que também favorecem os pobres e os limitados. É um conceito que o mundo não costuma prestigiar. Deus ama a todos, inclusive aos fracos. Não só a eles, mas também a eles."
+    },
+    {
+        "id": 131,
+        "title": "As 25 Leis Bíblicas do sucesso",
+        "author": "William Douglas",
+        "insights": "A Bíblia diz: “Mas Deus escolheu as coisas loucas deste mundo para confundir as sábias; e escolheu as coisas fracas deste mundo para confundir as fortes; e Deus escolheu as coisas vis deste mundo, e as desprezíveis, e as que não são, para aniquilar as que são” (1 Coríntios 1:27-28)."
+    }
+    
 ]
