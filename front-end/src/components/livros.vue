@@ -9,7 +9,7 @@
 				<div v-if="currentItem" class="container-artigo">
 					<figure>
 						<img :src="currentImage" alt="imagem do livro" />
-						<p><cite>Wiliam Douglas</cite></p>
+						<p><cite>{{ currentItem.author }}</cite></p>
 					</figure>
 					<div class="container-insigth">
 						<h2>{{ currentItem.title }}</h2>
@@ -62,7 +62,7 @@ export default {
 		shuffleArray(array) {
 			for (let i = array.length - 1; i > 0; i--) {
 				const j = Math.floor(Math.random() * (i + 1));
-				[array[i], array[j]] = [array[j], array[i]]; // ES6 swap
+				[array[i], array[j]] = [array[j], array[i]];
 			}
 		},
 	},
@@ -70,6 +70,7 @@ export default {
 		this.storeLivros = StoreLivros();
 		this.dataLivros = await this.storeLivros.load();
 		this.shuffleArray(this.dataLivros.data);
+		
 	},
 };
 </script>
