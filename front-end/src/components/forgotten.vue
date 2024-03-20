@@ -65,7 +65,6 @@ export default {
 
 	methods: {
 		reset() {
-			console.log("enviar senha");
 			window.alert("senha enviada");
 			this.$router.push("/login");
 		},

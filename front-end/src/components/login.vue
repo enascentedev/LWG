@@ -3,7 +3,6 @@
 		<img class="w-auto h-auto mx-auto"
 			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0ZRdV_U9tw_Iz7_eO2R74xNCqmZk3ObmNQ&usqp=CAU"
 			alt="life com deus" />
-		<!-- <h1>Life com Deus</h1> -->
 		<h2>Olá! Faça seu Login.</h2>
 		<hr />
 		<form class="formulario">
@@ -16,7 +15,7 @@
 				<input class="inputGeral" id="password" v-model="data.password" name="password" type="password" required />
 			</label>
 			<div v-if="status === 'info'" class="alert alert-info rounded-md">
-				<i class="fa-solid fa-exclamation"></i>
+				<i class="fa-solid fa-circle-exclamation"></i>
 				<div class="alert-load">
 					<strong>Aguarde!</strong>
 					Carregando
@@ -24,13 +23,14 @@
 				</div>
 			</div>
 			<div v-if="status === 'warning'" class="alert alert-warning rounded-md">
-				<i class="fa-solid fa-exclamation"></i>
+				<i class="fa-solid fa-circle-exclamation"></i>
 				<span>
 					<strong>Erro!</strong>
 					Digite corretamente usuário e senha!
 				</span>
 			</div>
 			<div v-if="status === 'error'" class="alert alert-error rounded-md">
+				<i class="fa-solid fa-circle-exclamation"></i>
 				<span>
 					<strong>Erro!</strong>
 					Usuário não encontrado ou senha incorreta. Para recuperar a senha,
@@ -40,29 +40,25 @@
 				</span>
 			</div>
 			<div v-if="status === 'success'" class="alert alert-success rounded-md">
+				<i class="fa-solid fa-check"></i>
 				<span>
 					<strong>Autenticado!</strong>
 					Usuário validado com sucesso, redirecionando...
 				</span>
 			</div>
-			<button class="buttonclass" ref="button" :disabled="status === 'success'" accesskey="13" @click.prevent="loginUser">
+			<button class="buttonclass" ref="button" :disabled="status === 'success'" accesskey="13"
+				@click.prevent="loginUser">
 				Entrar
 			</button>
 
 			<router-link class="recover-password" to="/register">
 				registre-se
 			</router-link>
+			<p> Prepare-se para uma experiência com Deus !</p>
 			<!-- <router-link class="recover-password" to="/lembrar-senha">
 				lembrar senha
 			</router-link> -->
 		</form>
-		<div class="suport">
-			<p>Problemas no acesso ou ainda não usa o life com Deus?</p>
-			<a href="##" target="_blank"> Fale com a nossa equipe </a>
-		</div>
-		<div class="copy">
-			<span>Life com Deus:</span>
-		</div>
 	</div>
 </template>
 
@@ -109,7 +105,7 @@ export default {
 				this.status = "success";
 				setTimeout(() => {
 					this.$router.push("/artigo-semanal");
-				}, 2000);
+				}, 1000);
 			} else {
 				// status
 				this.status = "error";
@@ -166,31 +162,13 @@ export default {
 				@apply max-w-[45ch];
 			}
 		}
+
+		p { @apply text-center;}
+	
 	}
-
-	.suport {
-		@apply text-center mt-3 text-base-content;
-
-		a {
-			@apply block mt-1 underline font-semibold;
-		}
-	}
-
-	.copy {
-		@apply flex items-center justify-center gap-2 flex-col mt-6;
-
-		span {
-			@apply text-xs;
-		}
-
-		img {
-			@apply max-w-[142px];
-		}
-	}
-
-	/* link com svg voltar login style exclusivo register */
 }
 
 .alert {
 	@apply rounded-md;
-}</style>
+}
+</style>
