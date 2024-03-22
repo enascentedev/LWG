@@ -44,6 +44,9 @@ export default {
 			const titleMap = {
 				"Mais Esperto que o Diabo": "https://www.livrariasfamiliacrista.com.br/media/tmp/webp/catalog/product/cache/1/small_image/275x340/8104d67811b5b3c5190375b34be1f1fe/_/-/_-esperto-que-o-diabo.webp",
 				"As 25 Leis Bíblicas do sucesso": "https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/800x/56819907b1c49a4bc751319b3fccb0da/l/i/livro_as_25_leis_b_blicas_do_sucesso.jpg",
+				"O homem mais rico da babilônia": "https://www.livrariasfamiliacrista.com.br/media/tmp/webp/catalog/product/cache/1/small_image/275x340/8104d67811b5b3c5190375b34be1f1fe/o/-/o-hoem-mais-rico-da-babil_nia---karen-mccreadie1.webp",
+				"Rumo ao lugar desejado": "https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/small_image/275x340/8104d67811b5b3c5190375b34be1f1fe/R/u/Rumo_ao_Lugar_Desejado_Tiago_Brunet_2.jpg",
+				"O milagre do amanhã": "https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/small_image/275x340/8104d67811b5b3c5190375b34be1f1fe/o/-/o-milagre-da-manh_-para-empreendedores---hal-elrod1_1.jpg",
 			};
 			return titleMap[this.currentItem.title] || "https://img.skoob.com.br/XnQdUf07fNcMg0Ci84avk8Kjn7Y=/600x0/center/top/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/401847/MAIS_ESPERTO_QUE_O_DIABO_1405468411B.jpg";
 		},
