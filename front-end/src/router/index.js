@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { StoreUser } from "@/stores/user";
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -53,19 +54,16 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-	// Obtém o token atual do localStorage
-	const currentToken = localStorage.getItem("authToken");
+  const storeUser = StoreUser(); // Acessa a store do Pinia
+  const isAuthenticated = storeUser.authToken && localStorage.getItem('authToken'); // Verifica se está autenticado
 
-	if (to.matched.some((route) => route.meta.requiresAuth)) {
-		if (currentToken) {
-			next();
-		} else {
-			console.log("O usuário não está autenticado");
-			next("/login");
-		}
-	} else {
-		next();
-	}
+  if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
+    // Se a rota requer autenticação e o usuário não está autenticado, redireciona para o login
+    next('/login');
+  } else {
+    // Caso contrário, prossegue normalmente
+    next();
+  }
 });
 
 export default router;

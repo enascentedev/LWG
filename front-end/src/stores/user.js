@@ -5,13 +5,14 @@ import axios from "axios";
 export const StoreUser = defineStore({
 	id: "StoreUser",
 	state: () => ({
+
 		user: null,
 		response: null,
 		authToken: false,
 		data: {},
+
 	}),
 	actions: {
-		// Salva o token no armazenamento local
 
 		//request para end-point
 		async login(data) {
@@ -20,27 +21,28 @@ export const StoreUser = defineStore({
 					"https://vida-com-deus.onrender.com/usuarios/login",
 					data
 				);
-				const token = response.data.token;
-				localStorage.setItem("authToken", token);
 				if (response.data && response.data.token) {
-					return token;
-				}
-				return null;
+          const token = response.data.token;
+          console.log("Token recebido:", token);
+          localStorage.setItem("authToken", token);
+          
+          this.authToken = token;
+          return true; 
+        }
+				return false;
 
-				// Atualiza o status e redireciona para a página principal ou dashboard
+				
 			} catch (error) {
-				// Em caso de erro, exibe uma mensagem de erro
 				console.error("Erro ao fazer login:", error);
 				return null;
 			}
 		},
 
+		// Remove o token do armazenamento local
 		logout() {
-			// Remove o token do armazenamento local
 			localStorage.removeItem("authToken");
-
-			// Redireciona o usuário de volta para a página de login
-			this.$router.push("/login");
+			this.authToken = null;
+		
 		},
 	},
 });
