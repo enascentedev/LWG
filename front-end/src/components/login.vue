@@ -55,9 +55,6 @@
 				registre-se
 			</router-link>
 			<p> Prepare-se para uma experiência com Deus !</p>
-			<!-- <router-link class="recover-password" to="/lembrar-senha">
-				lembrar senha
-			</router-link> -->
 		</form>
 	</div>
 </template>
@@ -146,7 +143,7 @@ export default {
 		}
 
 		.buttonclass {
-			@apply mt-6 lg:w-full bg-blue-500 btn-outline btn-primary hover:bg-base-100 text-base-content btn;
+			@apply mt-6 lg:w-full bg-blue-500 btn-outline btn-primary hover:bg-blue-800 text-base-content btn;
 		}
 
 		.recover-password {

@@ -8,7 +8,7 @@ export const StoreUser = defineStore({
 
 		user: null,
 		response: null,
-		authToken: false,
+		authToken: {},
 		data: {},
 
 	}),

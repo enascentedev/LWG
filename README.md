@@ -39,13 +39,17 @@ Estou orgulhoso de alcançar 100 commits neste projeto, resultado da minha dedic
 ![Login](./front-end/src/assets/imagens-git/login.png)
 Página de login com registro de usuário.
 
-![Home](./front-end/src/assets/imagens-git/home.png)
+![Home](./front-end/src/assets/imagens-git/versao_02/home.png)
 Página home aonde tenho alguns cards.
 
-![Artigo semanal](./front-end/src/assets/imagens-git/artigo-semanal.png)
+![Artigo semanal](./front-end/src/assets/imagens-git/versao_02/artigo-semanal.png)
 Algumas mensagens de Deus falando de uma maneira leve , sem crenças absolutas.
 
-![Leitura-diaria](./front-end/src/assets/imagens-git/leitura-diaria.png)
+![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/leitura-diaria1.png)
+
+![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/leitura-diaria2.png)
+
+![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/mobile.png)
 Alguns insigts de livros que eu já li.
 
 

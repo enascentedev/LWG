@@ -8,8 +8,7 @@
 			</p>
 			<article v-for="(artigo, index) in artigos" :key="index">
 				<div>
-					<img :src="tempoRefletir" alt="Minha Imagem" />
-					<img :src="artigo.imagem"	alt="Minha Imagem" class="img" />
+					<img :src="artigo.imagem" alt="Minha Imagem" class="img"/>
 				</div>
 				<section>
 					<legend>
@@ -74,12 +73,11 @@ export default {
 	article{
 		@apply w-full flex flex-col md:flex-row justify-center gap-2 mt-10;
 		div{
-			@apply sm:relative;
+			@apply sm:relative sm:w-1/2 w-full;
 			@apply flex flex-col;
-		.img{
-			@apply sm:absolute sm:inset-0 h-auto w-auto;
-			@apply hidden ;
-		}
+			.img{
+				@apply sm:inset-0 h-full w-full;
+			}
 		}
 		section{
 			@apply w-full mx-10;
