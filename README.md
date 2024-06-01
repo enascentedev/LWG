@@ -36,7 +36,7 @@ Estou orgulhoso de alcançar 100 commits neste projeto, resultado da minha dedic
 
 
 # LAYOUT
-![Login](./front-end/src/assets/imagens-git/login.png)
+![Login](./front-end/src/assets/imagens-git/versao_02/login.png)
 Página de login com registro de usuário.
 
 ![Home](./front-end/src/assets/imagens-git/versao_02/home.png)
@@ -48,10 +48,11 @@ Algumas mensagens de Deus falando de uma maneira leve , sem crenças absolutas.
 ![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/leitura-diaria1.png)
 
 ![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/leitura-diaria2.png)
+Alguns insigts de livros que eu já li, através do botão avança para o proxima e muda capa do livro, título e autor
 
 ![Leitura-diaria](./front-end/src/assets/imagens-git/versao_02/mobile.png)
-Alguns insigts de livros que eu já li.
 
+versão mobile em todo o projeto, teste usando seu telefone
 
 # API 
 
