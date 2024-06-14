@@ -97,14 +97,14 @@ export default {
 <style scoped postcss>
 #header {
 	#desktop {
-		@apply items-center justify-between px-10 py-7 bg-primary hidden md:flex;
+		@apply items-center justify-between px-10 py-5 bg-gray-400 hidden md:flex ;
 
 		img {
 			@apply h-8 w-auto;
 		}
 
 		a {
-			@apply text-sm font-semibold text-base-100;
+			@apply text-base font-semibold text-base-100;
 		}
 	}
 
