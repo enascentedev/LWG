@@ -1,14 +1,11 @@
-//artigos.js
-
-//imports
-const authenticate = require("../middlewares/authMiddleware"); // Importe o middleware
 const express = require("express");
-const router = express.Router();
 const {
 	getTodosArtigosController,
 	getArtigoPorIdController,
-	// outros controladores importados
+	scrapeAndReturnDevocionaisController,
 } = require("../controladores/artigos");
+
+const router = express.Router();
 
 // Rota para buscar todos os artigos
 router.get("/", getTodosArtigosController);
@@ -16,6 +13,7 @@ router.get("/", getTodosArtigosController);
 // Rota para buscar um artigo por ID
 router.get("/:id", getArtigoPorIdController);
 
-// Outras rotas aqui
+// Rota para iniciar o web scraping e retornar os devocionais
+router.post("/", scrapeAndReturnDevocionaisController);
 
 module.exports = router;
