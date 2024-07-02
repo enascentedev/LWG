@@ -22,8 +22,8 @@ const errorMiddleware = require("./middlewares/errorMiddleware");
 app.use(errorMiddleware);
 
 app.use((err, req, res, next) => {
-	console.error(err);
-	res.status(500).json({ error: "Ocorreu um erro interno." });
+    console.error(err);
+    res.status(500).json({ error: "Ocorreu um erro interno." });
 });
 
 //DB conexão
@@ -33,5 +33,5 @@ conn();
 const port = 8000;
 
 app.listen(port, () => {
-	console.log(`Escutando a porta ${port}`);
+    console.log(`Escutando a porta ${port}`);
 });

@@ -1,19 +1,15 @@
 const express = require("express");
 const {
-	getTodosArtigosController,
-	getArtigoPorIdController,
-	scrapeAndReturnDevocionaisController,
+    scrapeAndReturnDevocionaisController,
+    getDevocionaisFromFileController,
 } = require("../controladores/artigos");
 
 const router = express.Router();
 
-// Rota para buscar todos os artigos
-router.get("/", getTodosArtigosController);
-
-// Rota para buscar um artigo por ID
-router.get("/:id", getArtigoPorIdController);
-
 // Rota para iniciar o web scraping e retornar os devocionais
 router.post("/", scrapeAndReturnDevocionaisController);
+
+// Rota para retornar os devocionais do arquivo JSON
+router.get("/devocionais", getDevocionaisFromFileController);
 
 module.exports = router;

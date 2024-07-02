@@ -36,6 +36,7 @@ import escolhas from "@/assets/imagens/escolhas.jpg";
 import amanhecer from "@/assets/imagens/amanhecer.jpg";
 
 import { artigosStore } from "@/stores/storeArtigo";
+import { StoreApi } from "@/stores/apiArtigos";
 export default {
 	name: "Artigo",
 	data() {
@@ -54,7 +55,14 @@ export default {
 			amanhecer,
 			artigos,
 			store: null,
+			data:[],
+			storeArtigos:[]
 		};
+	},
+	async mounted() {
+		this.storeArtigos = StoreApi();
+		this.data = await this.storeArtigos.load();
+		console.log(this.data)
 	},
 };
 </script>
